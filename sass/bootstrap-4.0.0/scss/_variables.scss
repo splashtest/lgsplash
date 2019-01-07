@@ -10,7 +10,7 @@
 
 // stylelint-disable
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #FAFAFC;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -36,7 +36,7 @@ $grays: map-merge((
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
-$purple:  #232D4C;
+$purple:  #0e4860; //0c3a4d //232D4C
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;

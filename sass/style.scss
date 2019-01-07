@@ -39,7 +39,18 @@ body, html {
     p{
         font-size: 18px;
     }
+    @include media-breakpoint-down(sm) {
+        h1{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
 }
+
 
 .tracked{
     letter-spacing: .1em;
@@ -80,7 +91,7 @@ body, html {
 }
 
 .bg-light{
-    background-color: #FAFAFC !important;
+    background-color: $gray-100 !important;
 }
 
 .map-bg{
@@ -288,6 +299,7 @@ section .container{
       -o-background-size: cover;
       background-size: cover;
       background-attachment: fixed;
+      
     }
     // @include cover(1, "../assets/child-taking-photo.png");
     // @include cover(2, "http://cdn.eyeem.com/thumb/h/800/4f488e1db3960b9ba1246125e8181e7741564b62-1370076361");
@@ -299,7 +311,7 @@ section .container{
 
     #share::after {
       background:     
-        linear-gradient(90deg, rgba(0, 7, 30, 0.9), rgba(6, 0, 104, 0)), url("../assets/bg-map.png") no-repeat;
+        linear-gradient(90deg, $purple, rgba(6, 0, 104, 0)), url("../assets/child-taking-photo.png") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
