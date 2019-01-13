@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800");
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf"); }
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf"); }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
 /***********************************
 Table of Contents
 
@@ -20,7 +31,7 @@ Table of Contents
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #0e4860;
+  --purple: #014866;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
@@ -6521,7 +6532,7 @@ body, html {
   #splash h1 {
     font-size: 40px; }
   #splash h2 {
-    font-size: 30px; } }
+    font-size: 36px; } }
 
 .tracked {
   letter-spacing: .1em; }
@@ -6716,14 +6727,14 @@ section .container {
       background-repeat: no-repeat;
       height: 50em;
       width: 100%;
-      background: linear-gradient(90deg, #0e4860, rgba(6, 0, 104, 0)), url("../assets/child-taking-photo.png") no-repeat;
+      background: linear-gradient(90deg, #014866, rgba(6, 0, 104, 0)), url("../assets/child-taking-photo.png") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       background-attachment: fixed; }
   .wrapper #share::after {
-    background: linear-gradient(90deg, #0e4860, rgba(6, 0, 104, 0)), url("../assets/child-taking-photo.png") no-repeat;
+    background: linear-gradient(90deg, #014866, rgba(6, 0, 104, 0)), url("../assets/child-taking-photo.png") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
