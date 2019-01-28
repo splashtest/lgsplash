@@ -6,8 +6,6 @@
 
         <script
 			  src="javascript/jquery.js"></script>
-
-
         <link rel="stylesheet" href="styles/style.css">
 	</head>
 	<body>
@@ -19,56 +17,70 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">About</a>
 					</li>
-					<button class="btn btn-primary" href="#">Get Started</button>
+					<button class="btn btn-primary ml-md-3" href="#">Get Started</button>
 				</ul>
 			</div>
 		</nav>
 		<div class="wrapper" id="splash">
-			<section id="title-img">
+			<section id="title-img" class="before-parallax-splash">
 			</section>
 			<section id="title">
 				<div class="container">
 					<div class="row mb-5">
 						<div class="col-md">
-							<!-- <span class="text-white text-uppercase tracked">Local Ground</span> -->
-							<H1 class="text-white font-weight-bold">Tell your community's story</H1>
-							<p class="text-white">Local Ground is a free, open source online mapping tool that elevates community voices into compelling, digital stories.</p>
-							<p class="text-white mb-5">Transform data into multimedia-rich maps to advocate for ideas, solve problems, and create change.</p>
-							<p class="text-white">Do you have a story to tell?</p>
-							<button type="button"  class="btn btn-outline-light">Get Started Now</button>
+							<H1 class="text-white font-weight-bold">Tell Your Community's Story</H1>
+							<p class="text-white mb-4 font-weight-bold">Local Ground is a free, open source online mapping tool that elevates community voices into compelling, digital stories.</p>
+							<p class="text-white font-weight-bold">Do you have a story to tell?</p>
+							<button type="button"  class="btn btn-primary">Get Started</button>
 						</div>
-						<div class="col-sm">
+						<div class="col-sm d-none d-xl-block">
+						</div>
+						<div class="col-sm d-none d-xl-block">
 						</div>
 					</div>
 				</div>
 			</section>
-<!-- 			<section>
-				TODO:Add summary
-			</section> -->
+
+			<section class="bg-light">
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col-lg">
+							<h2 class="text-center font-weight-bold">Think with Maps</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md">
+							<img class="img-fluid" src="assets/summary/collect-data.png">
+							<p class="text-center">Collect location data with your team</p>
+						</div>
+						<div class="col-md">
+							<img class="img-fluid" src="assets/summary/personalize-data.png">
+							<p class="text-center">Layer visualizations, images, and drawings to tell a story</p>
+						</div>
+						<div class="col-md">
+							<img class="img-fluid" src="assets/summary/tell-stories.png">
+							<p class="text-center">Use your map to advocate for ideas, solve problems, and create change</>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section id="make-maps" class="bg-white map-background map-bg">
 				<div class="container">
-<!-- 					<div  class="text-center">
-						<img class="img-fluid" style="max-height:200px;margin-bottom:-50px" src="assets/map-pins.png">
-					</div> -->
-					<div class="row">
-<!-- 						<div class="col-lg">
-							<img class="img-fluid map-pins" style="max-height:200px;" src="assets/map-pins.svg">
-						</div> -->
+					<div class="row mb-4">
 						<div class="col-lg">
 							<h2 class="text-center font-weight-bold">Make Maps</h2>
 							<p class="text-center">Create story maps that take your visitor on a journey through your data</p>
 						</div>
-<!-- 						<div class="col-lg">
-							<img class="img-fluid map-pins" style="max-height:200px;  -webkit-transform: scaleX(-1);transform: scaleX(-1);" src="assets/map-pins.svg">
-						</div> -->
 					</div>
 					<div class="row pt-5">
 						<div class="col-md">
 							<div class="animation-element bounce-up">
-								<img class="img-fluid" alt="laptop with map being built on it" src="assets/laptop-imgs/laptop.png">
-								<img style="position:absolute;left:0;top:0;" class="img-fluid animation-element fade-in" alt="laptop with map being built on it" src="assets/laptop-imgs/map.png">
-								<img style="position:absolute;left:0;top:0;" class="img-fluid animation-element bounce-down" alt="laptop with map being built on it" src="assets/laptop-imgs/overlay.png"><img style="position:absolute;left:0;top:0;" class="img-fluid animation-element bounce-down" alt="laptop with map being built on it" src="assets/laptop-imgs/data-points.svg">						
+								<img class="img-fluid img-bottom-la" alt="laptop with map being built on it" src="assets/laptop-imgs/laptop.png">
+								<img class="img-fluid animation-element fade-in img-layer" alt="laptop with map being built on it" src="assets/laptop-imgs/map.png">
+								<img class="img-fluid animation-element bounce-down img-layer" alt="laptop with map being built on it" src="assets/laptop-imgs/overlay.png">
+								<img class="img-fluid animation-element bounce-down img-layer" alt="laptop with map being built on it" src="assets/laptop-imgs/data-points.svg">		
+								<img class="img-fluid animation-element bounce-down img-layer" alt="laptop with map being built on it" src="assets/laptop-imgs/picture.png">
 							</div>
 						</div>
 						<div class="col-md">
@@ -104,7 +116,7 @@
 						</div>
 					</div>
 					<div class="row pt-5">
-						<div class="col-sm">
+						<div class="col-sm pt-5">
 							<ul class="list-group">
 								<li class="list-group-item">
 									<h3>Work together</h3>
@@ -121,28 +133,29 @@
 							</ul>
 						</div>
 						<div class="col-sm">
-							<div class="animation-element bounce-up">
-								<img class="img-fluid" alt="Children and a teenager taking photos with a map in the background" src="assets/collaboration.png">
+							<div class="animation-element bounce-up lock-map-animation">
+								<img class="img-fluid animation-element bounce-up rounded" alt="laptop with map being built on it" src="assets/collaboration-01.png">
+								<img class="img-fluid animation-element bounce-up rounded" alt="laptop with map being built on it" src="assets/collaboration-02.png">	
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section id="share" class="bg-white map-background-03 map-bg">
+			<section id="share" class="bg-white map-background-03 map-bg before-parallax-splash">
 				<div class="container">
-					<div class="row">
+					<div class="row mb-5">
 						<div class="col-sm">
 							<h2 class="text-center font-weight-bold ">Share</h2>
-							<p class="text-center">Publish your maps to a select group OR to the whole world</p>
+							<p class="text-center">Publish your maps to a select group or to the whole world</p>
 						</div>
 					</div>
 					<div class="row pt-5">
 						<div class="col-sm">
-							<div class="animation-element bounce-up text-center" style="max-width:400px;margin:auto;">
-								<img style="position:relative;z-index:3;top:0;left:0;" class="img-fluid" alt="laptop with map being built on it" src="assets/map.png">
-								<img style="position:absolute;z-index:2;top:0;left:0;left:0;right:0;margin:auto;" class="img-fluid animation-element bounce-up" alt="laptop with map being built on it" src="assets/arrows.png">				
-								<img style="position:absolute;z-index:4;top:0;left:0;left:0;right:0;margin:auto;" class="img-fluid animation-element bounce-down" alt="laptop with map being built on it" src="assets/lock.png">					
+							<div class="animation-element bounce-up text-center lock-map-animation">
+								<img class="img-fluid img-bottom-layer" alt="laptop with map being built on it" src="assets/map.png">
+								<img class="img-fluid animation-element bounce-up img-layer" alt="laptop with map being built on it" src="assets/arrows.png">				
+								<img class="img-fluid animation-element bounce-down img-layer" alt="laptop with map being built on it" src="assets/lock.png">					
 							</div>
 						</div>
 						<div class="col-sm">
@@ -153,7 +166,7 @@
 								</li>
 								<li class="list-group-item">
 									<h3>Decide who can see the map </h3>
-									<span>Decide who can see the map - You have the option of requiring a password to view your map.</span>
+									<span>You have the option of requiring a password to view your map.</span>
 								</li>
 							</ul>
 						</div>
@@ -162,11 +175,11 @@
 			</section>
 			<section id="get-started">
 				<div class="container text-center">
-					<h2 class="text-center text-white font-weight-bold">Get Started Now</h2>
+					<h2 class="text-center text-white">Get Started Now</h2>
 					<div class="row pt-5 pb-5">
 						<div class="col">
-							<button class="btn btn-outline-light">Create a Map</button>
-							<button class="btn btn-outline-light">Explore Maps</button>
+							<button class="btn btn-light">Create a Map</button>
+							<button class="btn btn-light">Explore Maps</button>
 						</div>
 					</div>
 					<div class="card-deck">
@@ -181,7 +194,7 @@
 					    <img class="card-img-top" src="assets/sample-projects/la-pena-detail.png" alt="Card image cap">
 					    <div class="card-body">
 					      <h5 class="card-title">Berkeley Murals</h5>
-					      <p class="card-text">Murals in Berkeley reflect demographics and community values</p>
+					      <p class="card-text">Murals in Berkeley reflect community values</p>
 					    </div>
 					  </div>
 					</div>
@@ -189,8 +202,6 @@
 			</section>
 		</div>
 
-
-		<!-- Latest compiled and minified JavaScript -->
 		<script src="javascript/interaction.js"></script>
 
 	</body>
